@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+    <select onchange="window.open(value, '_self')" class="page-select">
+        <option value="login.html" selected>login</option>
+        <option value="terms.html">terms</option>
+        <option value="signup.html">signup</option>
+        <option value="nickname.html">nickname</option>
+        <option value="complete.html">complete</option>
+    </select>
+    
+    <div class="header">
+        <a class="header-item"></a>
+        <a class="header-item">
+            <img src="image/logo2.png">
+        </a>
+        <a class="header-item look">둘러보기</a>
+    </div>
+    <div class="login">
+        <div class="logo-wrapper">
+            <img src="image/logo.png">
+            <div class="shadow"></div>
+        </div>
+        <p class="page-title">
+            지금 산타와 함께 <br/>
+            등산을 시작해보세요!
+        </p>
+        <p class="page-des">
+            <strong>등산 코스 추천</strong>부터 <strong>산타러</strong>들과의 소통까지!
+        </p>
+        <div class="buttons">
+            <button class="login-button kakao">
+                <img src="image/kakao.png">
+                <span><strong>카카오</strong>로 시작하기</span>
+                <span class="empty"></span>
+            </button>
+            <button class="login-button naver">
+                <img src="image/naver.png">
+                <span><strong>네이버</strong>로 시작하기</span>
+                <span class="empty"></span>
+            </button>
+            <button class="login-button facebook">
+                <img src="image/facebook.png">
+                <span><strong>페이스북</strong>으로 시작하기</span>
+                <span class="empty"></span>
+            </button>
+            <button class="login-button google">
+                <img src="image/google.png">
+                <span><strong>구글</strong>로 시작하기</span>
+                <span class="empty"></span>
+            </button>
+        </div>
+        <p class="login-des">
+            로그인시 산타의 서비스 약관,<br/>개인정보 취급 방침에 동의하게 됩니다.
+        </p>
+    </div>
+</body>
+</html>
